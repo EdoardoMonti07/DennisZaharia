@@ -1,0 +1,124 @@
+.homeContainer {
+  background-image: url("home-background-darkened.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-size: auto, cover;
+  background-clip: border-box;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.navContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 12vw;
+  text-align: center;
+}
+
+.navItem {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 50px;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.navItem:hover {
+  transform: translateY(-5px);
+  color: #c9cac2;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 5vw;
+  letter-spacing: 12px;
+  font-weight: 500;
+  text-align: center;
+  color: #c9cac2;
+  padding: 20px;
+  background: -webkit-linear-gradient(#ffffff, #fff8f1);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+
+.pageEnd {
+  width: 100vw;
+  height: 20vh;
+  background: linear-gradient(to top, #0a0a0a 22%, rgba(255, 255, 255, 0));
+}
+
+@media (max-width: 1200px) {
+  .heading {
+    font-size: 6vw;
+    letter-spacing: 15px;
+  }
+  .navContainer {
+    grid-column-gap: 8vw;
+  }
+  .navItem {
+    font-size: 16px;
+    padding: 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .heading {
+    font-size: 7vw;
+    letter-spacing: 12px;
+  }
+  .navContainer {
+    grid-column-gap: 6vw;
+  }
+  .navItem {
+    font-size: 14px;
+    padding: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 8vw;
+    letter-spacing: 10px;
+  }
+  .navContainer {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 4vw;
+  }
+  .navItem {
+    font-size: 18px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .heading {
+    font-size: 10vw;
+    letter-spacing: 8px;
+  }
+  .navContainer {
+    grid-template-columns: 1fr;
+    grid-column-gap: 2vw;
+  }
+  .navItem {
+    font-size: 18px;
+    padding: 10px;
+  }
+}
