@@ -1,5 +1,5 @@
 .homeContainer {
-  background-image: url("home-background-darkened.png");
+  background-image: url("../home-background-darkened.png");
   display: flex;
   flex-direction: column;
   justify-content: space-between;
