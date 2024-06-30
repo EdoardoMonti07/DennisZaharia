@@ -1,13 +1,14 @@
 *BUG REPORT*
 
-- Burger Menu X incorrect and asymmetrical
+- Burger Menu X incorrect and asymmetrical FIXED
 
-- Slight x-axis overflow
+- Slight x-axis overflow 
 
 - Footer too tall (almost covers Action btn!)
 
 *MINOR FIXES*
 
 - Remove possibility to turn 90 deg the display (orizzontally)
+
 
 - Remove automatic translation (Movement becomes: Movimento in Italian)
