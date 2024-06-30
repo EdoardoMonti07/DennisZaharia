@@ -2,31 +2,38 @@ import { useState } from "react";
 import styles from "./BurgerMenu.module.css";
 
 function BurgerMenu({ children }) {
-  const [burgerClass, setBurgerClass] = useState(
-    `${styles.burgerBar} ${styles.unclicked}`
-  );
-  const [menuClass, setMenuClass] = useState(`${styles.menu} ${styles.hidden}`);
   const [isMenuClicked, setIsMenuClicked] = useState(false);
 
   const updateMenu = () => {
-    if (!isMenuClicked) {
-      setBurgerClass(`${styles.burgerBar} ${styles.clicked}`);
-      setMenuClass(`${styles.menu}`);
-    } else {
-      setBurgerClass(`${styles.burgerBar} ${styles.unclicked}`);
-      setMenuClass(`${styles.menu} ${styles.hidden}`);
-    }
-    setIsMenuClicked(!isMenuClicked);
+    setIsMenuClicked((prev) => !prev);
   };
 
   return (
     <>
       <div className={styles.burgerMenu} onClick={updateMenu}>
-        <div className={burgerClass}></div>
-        <div className={burgerClass}></div>
-        <div className={burgerClass}></div>
+        <div
+          className={`${styles.burgerBar} ${
+            isMenuClicked ? styles.clicked : styles.unclicked
+          }`}
+        ></div>
+        <div
+          className={`${styles.burgerBar} ${
+            isMenuClicked ? styles.clicked : styles.unclicked
+          }`}
+        ></div>
+        <div
+          className={`${styles.burgerBar} ${
+            isMenuClicked ? styles.clicked : styles.unclicked
+          }`}
+        ></div>
       </div>
-      <div className={menuClass}>{children}</div>
+      <div
+        className={`${styles.menu} ${
+          isMenuClicked ? styles.visible : styles.hidden
+        }`}
+      >
+        {children}
+      </div>
     </>
   );
 }
