@@ -1,6 +1,6 @@
 .footerContainer {
   width: 100vw;
-  padding: 40px 30px 20px;
+  padding: 40px 30px 0px;
   background-color: #111;
   position: fixed;
   bottom: 0;
@@ -47,7 +47,7 @@
 }
 
 .footerNav {
-  margin: 30px 0;
+  margin: 30px 0 10px 0;
 }
 
 .footerNav ul {
@@ -65,8 +65,7 @@
   -webkit-text-fill-color: transparent;
   font-family: "Inter", sans-serif;
   font-weight: bold;
-  line-height: 1.5;
-  margin: 10px; /* Adjust margin for smaller screens */
+  margin: 25px; /* Adjust margin for smaller screens */
   text-decoration: none;
   font-size: 1.3em;
   opacity: 0.7;
@@ -93,11 +92,11 @@
   }
 
   .footerNav ul {
-    justify-content: space-evenly;
+    display: none;
   }
 
-  .footerNav ul li button {
-    font-size: 0.9em; /* Adjust font size for smaller screens */
+  /* .footerNav ul li button {
+    font-size: 2vw; 
     margin: 15px;
-  }
+  } */
 }
