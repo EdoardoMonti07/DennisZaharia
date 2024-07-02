@@ -4,7 +4,7 @@
 
 - Slight x-axis overflow (NOT SCROLLBAR FAULT!)
 
-- Footer too tall (almost covers Action btn!)
+- Footer too tall (almost covers Action btn!) FIXED
 
 *MINOR FIXES*
 
