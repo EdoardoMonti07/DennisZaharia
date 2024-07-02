@@ -43,7 +43,7 @@ function Home({ homeRef, aboutRef, agencyRef, actionRef }) {
                 setIsMenuClicked(false); // Close menu on click
               }}
             >
-              MOVIMENTO
+              MOVEMENT
             </button>
             <button
               className={styles.navItem}
