@@ -92,6 +92,10 @@
     margin: 8px;
   }
 
+  .footerNav ul {
+    justify-content: space-evenly;
+  }
+
   .footerNav ul li button {
     font-size: 0.9em; /* Adjust font size for smaller screens */
     margin: 15px;
