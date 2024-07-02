@@ -2,7 +2,7 @@
 
 - Burger Menu X incorrect and asymmetrical FIXED
 
-- Slight x-axis overflow FIXED
+- Slight x-axis overflow (NOT SCROLLBAR FAULT!)
 
 - Footer too tall (almost covers Action btn!)
 
