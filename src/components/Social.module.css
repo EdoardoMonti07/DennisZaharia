@@ -68,7 +68,7 @@
   line-height: 1.5;
   margin: 10px; /* Adjust margin for smaller screens */
   text-decoration: none;
-  font-size: 1.1em;
+  font-size: 1.3em;
   opacity: 0.7;
   transition: 0.5s;
   cursor: pointer;
@@ -93,7 +93,7 @@
   }
 
   .footerNav ul li button {
-    font-size: 1.1em; /* Adjust font size for smaller screens */
+    font-size: 0.9em; /* Adjust font size for smaller screens */
     margin: 15px;
   }
 }
@@ -111,7 +111,7 @@
   }
 
   .footerNav ul li button {
-    font-size: 1em; /* Adjust font size for smaller screens */
+    font-size: 0.9em; /* Adjust font size for smaller screens */
     margin: 10px;
   }
 }
