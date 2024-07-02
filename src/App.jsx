@@ -22,13 +22,13 @@ function App() {
       />
       <About aboutRef={aboutRef} />
       <Agency agencyRef={agencyRef} />
-      <Action actionRef={actionRef} />
-      {/* <Social
+      {/* <Action actionRef={actionRef} /> */}
+      <Social
         homeRef={homeRef}
         aboutRef={aboutRef}
         agencyRef={agencyRef}
         actionRef={actionRef}
-      /> */}
+      />
     </>
   );
 }
