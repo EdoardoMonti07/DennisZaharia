@@ -71,7 +71,7 @@ function Home({ homeRef, aboutRef, agencyRef, actionRef }) {
                 agencyRef.current?.scrollIntoView({ behavior: "smooth" });
               }}
             >
-              MOVIMENTO
+              MOVEMENT
             </button>
             <button
               className={styles.navItem}
