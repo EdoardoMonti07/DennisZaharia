@@ -20,7 +20,7 @@ function App() {
         agencyRef={agencyRef}
         actionRef={actionRef}
       />
-      <About aboutRef={aboutRef} />
+      {/* <About aboutRef={aboutRef} /> */}
       <Agency agencyRef={agencyRef} />
       <Action actionRef={actionRef} />
       <Social
