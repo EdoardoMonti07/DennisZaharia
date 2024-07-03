@@ -19,19 +19,14 @@ function Home({ homeRef, aboutRef, agencyRef, actionRef }) {
 
   return (
     <section className={styles.homeContainer} ref={homeRef}>
+      {/*
       <nav className={styles.navContainer}>
         {isMobile ? (
-          <BurgerMenu
-            className={styles.burgerMenu}
-            isMenuClicked={isMenuClicked}
-            setIsMenuClicked={setIsMenuClicked}
-          >
-            {/* Menu items */}
+          <BurgerMenu className={styles.burgerMenu}>
             <button
               className={styles.navItem}
               onClick={() => {
                 aboutRef.current?.scrollIntoView({ behavior: "smooth" });
-                setIsMenuClicked(false); // Close menu on click
               }}
             >
               CHI SONO
@@ -40,7 +35,6 @@ function Home({ homeRef, aboutRef, agencyRef, actionRef }) {
               className={styles.navItem}
               onClick={() => {
                 agencyRef.current?.scrollIntoView({ behavior: "smooth" });
-                setIsMenuClicked(false); // Close menu on click
               }}
             >
               MOVEMENT
@@ -49,7 +43,6 @@ function Home({ homeRef, aboutRef, agencyRef, actionRef }) {
               className={styles.navItem}
               onClick={() => {
                 actionRef.current?.scrollIntoView({ behavior: "smooth" });
-                setIsMenuClicked(false); // Close menu on click
               }}
             >
               INIZIA CON NOI
@@ -58,7 +51,6 @@ function Home({ homeRef, aboutRef, agencyRef, actionRef }) {
               className={styles.navItem}
               onClick={() => {
                 actionRef.current?.scrollIntoView({ behavior: "smooth" });
-                setIsMenuClicked(false); // Close menu on click
               }}
             >
               SOCIAL
@@ -66,7 +58,6 @@ function Home({ homeRef, aboutRef, agencyRef, actionRef }) {
           </BurgerMenu>
         ) : (
           <>
-            {/* Non-mobile navigation */}
             <button
               className={styles.navItem}
               onClick={() => {
@@ -102,6 +93,7 @@ function Home({ homeRef, aboutRef, agencyRef, actionRef }) {
           </>
         )}
       </nav>
+      */}
       <div className={styles.heading}>
         <h1>DENNIS ZAHARIA</h1>
       </div>
