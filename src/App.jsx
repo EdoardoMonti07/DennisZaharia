@@ -14,13 +14,13 @@ function App() {
 
   return (
     <>
-      <Home
+      {/* <Home
         homeRef={homeRef}
         aboutRef={aboutRef}
         agencyRef={agencyRef}
         actionRef={actionRef}
-      />
-      {/* <About aboutRef={aboutRef} /> */}
+      /> */}
+      <About aboutRef={aboutRef} />
       <Agency agencyRef={agencyRef} />
       <Action actionRef={actionRef} />
       <Social
