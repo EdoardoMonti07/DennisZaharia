@@ -19,7 +19,6 @@ function Home({ homeRef, aboutRef, agencyRef, actionRef }) {
 
   return (
     <section className={styles.homeContainer} ref={homeRef}>
-      {/*
       <nav className={styles.navContainer}>
         {isMobile ? (
           <BurgerMenu className={styles.burgerMenu}>
@@ -93,7 +92,7 @@ function Home({ homeRef, aboutRef, agencyRef, actionRef }) {
           </>
         )}
       </nav>
-      */}
+
       <div className={styles.heading}>
         <h1>DENNIS ZAHARIA</h1>
       </div>
