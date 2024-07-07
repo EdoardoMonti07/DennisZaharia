@@ -2,13 +2,13 @@
 
 - Burger Menu X incorrect and asymmetrical FIXED
 
-- Slight x-axis overflow (NOT SCROLLBAR FAULT!)
+- Slight x-axis overflow (NOT SCROLLBAR FAULT!) FIXED
 
 - Footer too tall (almost covers Action btn!) FIXED
 
 *MINOR FIXES*
 
-- Remove possibility to turn 90 deg the display (orizzontally)
+- Remove possibility to turn 90 deg the display (orizzontally) CANT DO THAT
 
 
-- Remove automatic translation (Movement becomes: Movimento in Italian)
+- Remove automatic translation (Movement becomes: Movimento in Italian) FIXED
